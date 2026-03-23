@@ -42,6 +42,11 @@ document.getElementById("flower").addEventListener("click", function() {
 
     const mensaje =  document.getElementById("mensaje");
     mensaje.innerText="";
+
+     setTimeout(() => {
+      carta.style.display = "none";
+    }, 10);
+
 });
 
 document.getElementById("btnsobre").addEventListener("click", function() {
@@ -49,5 +54,13 @@ document.getElementById("btnsobre").addEventListener("click", function() {
         document.getElementById("mensaje").innerText = florActual.mensaje;
 
         this.style.display = "none";
+
+       
+        const carta = document.getElementById("carta");
+          carta.style.display = "block";
+
+        setTimeout(() => {
+      carta.classList.add("mostrar");
+    }, 10);
     }
 });

@@ -2,24 +2,24 @@
        
 body {
             font-family: Arial, sans-serif;
-            background-color: #2F3E4E;
+            background-color: #A1726A;
         }
 header {
-            background-color: #899ABE;
-            color: white;
+            background-color: #AE9480;
+            color: black;
             text-align: center;
             padding: 20px;
         }
 main {
             max-width: 800px;
             margin: 20px auto;
-            background-color: #E5E7EB;
+            background-color: #C1AAA5;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 .receive-flower{
-            background-color: #053038;
+            background-color: #765B53;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -79,4 +79,42 @@ p{
     0% { opacity: 1; }
     50% { opacity: 0.5; }
     100% { opacity: 1; }
+}
+.carta {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 5px;
+  
+  background: #f5e6c8; /* color papel */
+  color: #3e2f1c;
+  
+  border-radius: 1px;
+  
+  /* textura suave */
+  background-image: 
+    linear-gradient(0deg, rgba(0,0,0,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px);
+  background-size: 4px 4px;
+  
+  /* sombra tipo hoja */
+  box-shadow: 
+    0 4px 10px rgba(0,0,0,0.2),
+    inset 0 0 10px rgba(0,0,0,0.1);
+  
+ opacity: 0;
+  
+  font-family: "Georgia", serif;
+}
+
+.carta.mostrar {
+  opacity: 1;
+}
+
+.firma {
+  margin-top: 10px;
+  text-align: right;
+  font-style: italic;
+  font-family: "Brush Script MT", cursive;
+  font-size: 1.2em;
+  color: #5a4632;
 }
