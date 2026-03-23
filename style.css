@@ -1,0 +1,82 @@
+
+       
+body {
+            font-family: Arial, sans-serif;
+            background-color: #a18cd1;
+        }
+header {
+            background-color: #ff9a9e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #a8edea;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+.receive-flower{
+            background-color: #053038;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            display: block;
+            margin: 0 auto;
+        }
+.sobre{
+
+    border: none;
+    background: transparent;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    animation: parpadeo 1s infinite;
+}
+.sobre img{
+    border-radius: 12px;
+}
+#mensaje {
+    font-size: 18px;
+    color: #333333;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+ 
+}
+#flower-image {
+    animation: auraGlow 3s ease-in-out infinite alternate;
+    border-radius: 8px;
+}
+p{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+/* Animación del brillo */
+@keyframes auraGlow {
+  0% {
+    filter: drop-shadow(0 0 5px #3700ff)
+            drop-shadow(0 0 10px #ff00cc);
+  }
+  50% {
+    filter: drop-shadow(0 0 15px #ff3c00)
+            drop-shadow(0 0 25px #00ffff);
+  }
+  100% {
+    filter: drop-shadow(0 0 10px #15ff00)
+            drop-shadow(0 0 20px #ffcc00);
+  }
+}
+@keyframes parpadeo {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
