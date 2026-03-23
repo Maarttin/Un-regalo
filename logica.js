@@ -9,7 +9,7 @@ const imagenes = [
     },
     {
         img: "pictures/Ramodegirasoles.png",
-        mensaje:"Pensé que te gustarían por que son bonitos y tú eres bonita"
+        mensaje:"Pensé que te gustarían porque son bonitos y tú eres bonita"
     },
     {
         img: "pictures/Ramodeazucenas.png",

@@ -2,10 +2,10 @@
        
 body {
             font-family: Arial, sans-serif;
-            background-color: #a18cd1;
+            background-color: #2F3E4E;
         }
 header {
-            background-color: #ff9a9e;
+            background-color: #899ABE;
             color: white;
             text-align: center;
             padding: 20px;
@@ -13,7 +13,7 @@ header {
 main {
             max-width: 800px;
             margin: 20px auto;
-            background-color: #a8edea;
+            background-color: #E5E7EB;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
